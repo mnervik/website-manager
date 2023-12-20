@@ -1,4 +1,4 @@
-import SignOut from "@/components/sign-out";
+import SignOut from "src/components/sign-out";
 
 export default function Home() {
   return (
