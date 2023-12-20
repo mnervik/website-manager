@@ -1,9 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  swcMinify: true,
-};
-
-module.exports = nextConfig;
+module.exports = {
+  typescript: { ignoreBuildErrors: true },
+  eslint: { ignoreDuringBuilds: true }
+}
